@@ -1,0 +1,3 @@
+End of Sentence (EOS): 
+End of Paragraph (EOP): 
+End of Story (EOT): 
