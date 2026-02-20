@@ -537,13 +537,13 @@ export default function Home() {
           </div>
 
           {/* FOOTER */}
-          <footer>
-            <div className="ornament" style={{ justifyContent: "center", marginBottom: "8px" }}>
-              <span className="ornament-line" />
-              <span>✦</span>
-              <span className="ornament-line" />
+          <footer className="mt-8 text-center text-gray-500 dark:text-gray-400 text-sm">
+            <p>NLP Assignment - Trigram Language Model with BPE Tokenizer</p>
+            <p className="mt-1">FastAPI Backend (REST API)</p>
+            <div className="mt-2">
+              <strong>Group Members:</strong><br />
+              Rayan Ahmed (23i-0018) &nbsp;|&nbsp; Awwab Ahmad (23i-0079) &nbsp;|&nbsp; Uwaid Munir (23i-2574)
             </div>
-            NLP Assignment — Trigram Language Model with BPE Tokenizer · FastAPI Backend
           </footer>
         </div>
       )}

@@ -37,6 +37,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 # Urdu Story Generator — Frontend
 
+**Group Members:**
+- Rayan Ahmed — 23i-0018
+- Awwab Ahmad — 23i-0079
+- Uwaid Munir — 23i-2574
+
 This is the Next.js (React) frontend for the Urdu Story Generator project.
 
 ---
