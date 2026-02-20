@@ -34,7 +34,7 @@ def format_special_tokens(text: str) -> str:
     """
     # Replace EOP first (paragraph break)
     text = text.replace(EOP, "\n\n")
-    # Remove EOS (sentence end) token entirely
+    # Remove EOS (sentence end) token entirely and add a space to separate sentences
     text = text.replace(EOS, " ")
     # Replace EOT (end of story)
     text = text.replace(EOT, "\n\n[کہانی ختم]")
