@@ -34,3 +34,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# Urdu Story Generator — Frontend
+
+This is the Next.js (React) frontend for the Urdu Story Generator project.
+
+---
+
+## 🌐 Live Demo
+- **Frontend (Vercel):** [https://urdu-stories-generation-model.vercel.app/](https://urdu-stories-generation-model.vercel.app/)
+- **Backend (Render):** [https://urdu-stories-generation-model.onrender.com](https://urdu-stories-generation-model.onrender.com)
+
+---
+
+## Usage
+- Visit the live site and enter a starting phrase in Urdu.
+- Click **کہانی تخلیق کریں** to generate a story.
+- The app streams the story from the backend as it is generated.
+
+---
+
+## Development
+See the main project README for full setup and deployment instructions.
