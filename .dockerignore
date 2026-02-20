@@ -1,0 +1,56 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Docker Ignore File
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# GitHub
+.github
+
+# Node.js (frontend)
+frontend/
+node_modules/
+.next/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+preprocessing/
+scrapper/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Documentation
+*.md
+LICENSE
+
+# Testing/Evaluation
+backend/evaluation/
+backend/__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
