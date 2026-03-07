@@ -2,7 +2,11 @@
 
 import { useState, useRef, useCallback, useEffect } from "react";
 
-const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000";
+const getBackendUrl = () => {
+  if (typeof window === "undefined") return "http://localhost:8000";
+  const hostname = window.location.hostname;
+  return process.env.NEXT_PUBLIC_BACKEND_URL || `http://${hostname}:8000`;
+};
 
 interface GenerationState {
   isGenerating: boolean;
@@ -35,7 +39,7 @@ export default function Home() {
     setState({ isGenerating: true, generatedText: "", error: null });
 
     try {
-      const response = await fetch(`${BACKEND_URL}/generate/stream`, {
+      const response = await fetch(`${getBackendUrl()}/generate/stream`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prefix, max_length: maxLength, temperature, top_k: 40, top_p: 0.92 }),

@@ -547,7 +547,7 @@ if __name__ == "__main__":
         temperature=0.7,
         top_k=40,
         top_p=0.92,
-        seed=42,
+        seed=69,
     )
     print(out)
 
