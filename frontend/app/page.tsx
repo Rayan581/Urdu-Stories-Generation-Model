@@ -2,11 +2,11 @@
 
 import { useState, useRef, useCallback, useEffect } from "react";
 
+
 const getBackendUrl = () => {
-  if (typeof window === "undefined") return "http://localhost:8000";
-  const hostname = window.location.hostname;
-  return process.env.NEXT_PUBLIC_BACKEND_URL || `http://${hostname}:8000`;
+  return process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000";
 };
+NEXT_PUBLIC_BACKEND_URL=https://urdu-stories-generation-model.onrender.com/
 
 interface GenerationState {
   isGenerating: boolean;
